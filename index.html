@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+    <title>ToDoList</title>
+</head>
+
+<body>
+    <header><h1>ToDoList</h1></header>
+ 
+    <main class="app-container">
+      <div class="add-task-container">
+        <img
+          class="plus-icon"
+          src="https://cdn4.iconfinder.com/data/icons/ios7-essence/22/add_plus-512.png"
+        />
+        <span>Add a Task</span>
+      </div>
+ 
+      <div class="remove-tasks-container">
+        <img
+          class="trash-icon"
+          src="https://cdn2.iconfinder.com/data/icons/cleaning-19/30/30x30-10-512.png"
+        />
+      </div>
+ 
+      <div class="tasks-container">
+        <div class="task">
+          <input type="checkbox" class="is-complete" />
+          <div contenteditable class="task-content"></div>
+        </div>
+      </div>
+    </main>
+</body>
+</html>

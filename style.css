@@ -1,0 +1,65 @@
+.add-task-container {
+    /* border: 3px solid blue; */
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+ 
+  .add-task-container:hover {
+    background-color: azure;
+    cursor: pointer;
+  }
+ 
+  .plus-icon,
+  .trash-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+  }
+ 
+  .plus-icon + span {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    vertical-align: middle;
+  }
+ 
+  .remove-tasks-container {
+    cursor: pointer;
+    float: right;
+  }
+ 
+  .tasks-container {
+    border-bottom: 2px solid blue;
+  }
+ 
+  .task {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ 
+    padding: 10px;
+  }
+ 
+  .task:hover {
+    border: 1px solid green;
+  }
+ 
+  .task-content[contenteditable] {
+    display: inline;
+    padding-left: 10px;
+    width: 100%;
+  }
+ 
+  .task-content[contenteditable]:focus {
+    outline: 0px solid transparent;
+  }
+ 
+  .red {
+    background-color: red;
+  }
+ 
+  .strike {
+    text-decoration: line-through;
+  }
